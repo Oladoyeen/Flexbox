@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ALTSCHOOL ASSIGNMENT</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</li>
+            <li><a href="#about">About Me</li>
+            <li><a href="#contact">Contact Me</li>
+            <li><a href="#register">Registration</li>
+            <li><a href="#login">Login</li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="heading">MY ALTSCHOOL ASSIGNMENT</h1>
+    </section>
+
+    <section id="About_Me">
+        <h1 class="heading">About Me</h1>
+        <p>My name is Oladoyin Ogunniran, I'm a self-driven young lady ready to learn new things. My goals for the course are to be good with the use of HTML, CSS and Javascript so as to be able to get a good paying job, I also want to connect with people that wil help my career journey.</p>
+        <p>I graduated from Ladoke Akintola University of Technology from the department of Science Laboratory Technology</p>
+        <p>Job Experience - Data Annotator at  Hugo from February 2021 to date.</p>
+        <p>Hobbies- Reading INTERESTING novels, Watching movies.</p>
+        <div class="gallery">
+            <img src="Images/Doyin2.png" alt="">
+        </div>
+    </section>
+
+    <section id="Contact_Me">
+        <h1 class="heading">Contact</h1>
+        <form action="" class="form"></form>
+        <input type="text" name="name" class="input" placeholder="Enter your Name">
+        <input type="email" name="email" class="input" placeholder="Enter your Email">
+        <textarea name="message" id="message" cols="70" rows="20" placeholder="Enter your Message"></textarea>
+        <input type="submit" value="Submit" id="submit">
+    </section>
+
+    <section id="Login">
+        <h1 class="heading">Login</h1>
+        <form action="" class="form"></form>
+        <input type="text" name="username" class="input" placeholder="Username">
+        <input type="text" name="password" class="input" placeholder="Password">
+        <input type="submit" value="Sign in" id="submit">
+    </section>
+
+    <section id="Registration">
+        <h1 class="heading">Registration</h1>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">First Name</span>
+                    <input type="text" placeholder="Enter your first name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Last Name</span>
+                    <input type="text" placeholder="Enter your last name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone Number</span>
+                    <input type="text" placeholder="Enter your number" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Country</span>
+                    <input type="text" placeholder="Enter your Country" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Username</span>
+                    <input type="text" placeholder="Enter your username" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Password</span>
+                    <input type="text" placeholder="Enter your password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Confirm Password</span>
+                    <input type="text" placeholder="Confirm your password" required>
+                </div>
+            </div>
+            <div class="gender-details">
+                <span class="gender-title">Gender</span>
+                <div class="category">
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="gender">Male</span>
+                    </label>
+                    <label for="">
+                        <span class="dot one"></span>
+                        <span class="gender">Female</span>
+                    </label>
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </section>
+    <section id="Calculator">
+        <h1 class="heading">Calculator</h1>
+        <div class="wrap">
+            <form name="cal">
+                <input type="text" name="display">
+                <input type="button" value="9" onclick="cal.display.value+='9'">
+                <input type="button" value="8" onclick="cal.display.value+='8'">
+                <input type="button" value="7" onclick="cal.display.value+='7'">
+                <input type="button" value="+" onclick="cal.display.value+='+'">
+
+            </form>
+        </div>
+    </section>
+
+    
+
+  
+</body>
+</html>

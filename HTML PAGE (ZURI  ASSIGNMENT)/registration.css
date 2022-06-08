@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #283f61;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 30px 0 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.link {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #F9F871;
+}
+
+section {
+    background-color: aliceblue;
+    margin: 50px 100px;
+    padding: 20px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 50px;
+}
+
+label {
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #F9F87170;
+    border-radius: 10px;
+    height: 50px;
+    width: 350px;
+}
+
+.title {
+    margin-left: 185px;
+    margin-bottom: 30px;
+}
+
+.title span {
+    color: #283f61;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: column;
+}
+
+.gender label {
+    margin-bottom: 25px;
+}
+
+.gender select {
+    outline: none;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 50px;
+    color: #283f61;
+    margin-bottom: 80px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #F9F87170;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button {
+    /* display: inline-block; */
+    background-color: #283f61;
+    border-radius: 10px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    color: #52a190;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px 20px;
+    width: 300px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    color: #283f61;
+    background-color: #F9F87170;
+}
+
+.reg {
+    margin-top: -30px;
+}
